@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="id.app.natedekaka.panduandhuha" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Panduan Sholat Dhuha</name>
+    <description>
+        Panduan lengkap tata cara Sholat Dhuha lengkap dengan doa, waktu otomatis, dan dzikir.
+    </description>
+    <author email="natedekaka@example.com" href="https://instagram.com/natedekaka">
+        @natedekaka
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <access origin="*" />
+    <allow-navigation href="*" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="22" />
+    <preference name="android-targetSdkVersion" value="34" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+</widget>
